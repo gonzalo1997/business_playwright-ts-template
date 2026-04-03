@@ -5,8 +5,8 @@ export interface TestUser {
 
 export function createValidUser(): TestUser {
   return {
-    username: process.env.USERNAME || 'standard_user',
-    password: process.env.PASSWORD || 'secret_sauce'
+    username: process.env.TEST_USERNAME || 'standard_user',
+    password: process.env.TEST_PASSWORD || 'secret_sauce'
   };
 }
 
