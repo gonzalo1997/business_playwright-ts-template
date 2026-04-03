@@ -31,6 +31,7 @@ When you want to run tests against your own app:
   USERNAME=your_real_email
   PASSWORD=your_real_password
   ```
+  The url that was being used is https://www.saucedemo.com/
 
 ### 4. Run tests
 ###    - Run all tests:
