@@ -28,8 +28,8 @@ When you want to run tests against your own app:
 - Replace the values with your own url that you want to automate and your real credentials:
   ```
   BASE_URL=https://www.saucedemo.com/
-  USERNAME=standard_user
-  PASSWORD=secret_sauce
+  TEST_USERNAME=standard_user
+  TEST_PASSWORD=secret_sauce
   ```
 
 ### 4. Run tests
