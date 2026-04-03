@@ -19,6 +19,7 @@ npm install -D @playwright/test typescript ts-node eslint prettier
 npm install dotenv @faker-js/faker
 npx playwright install
 npm install --save-dev @types/node
+npm install --save-dev @cucumber/cucumber ts-node
 ```
 
 ### 3. Real Credentials (future use)
