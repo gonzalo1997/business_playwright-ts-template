@@ -25,11 +25,11 @@ npm install --save-dev @cucumber/cucumber ts-node
 ### 3. Real Credentials (future use)
 When you want to run tests against your own app:
 - Create a local `.env` file (never commit it to GitHub).
-- Add your real credentials:
+- Replace the values with your own url that you want to automate and your real credentials:
   ```
-  BASE_URL=https://your-app.com/
-  USERNAME=your_real_email
-  PASSWORD=your_real_password
+  BASE_URL=https://www.saucedemo.com/
+  USERNAME=standard_user
+  PASSWORD=secret_sauce
   ```
 
 ### 4. Run tests
