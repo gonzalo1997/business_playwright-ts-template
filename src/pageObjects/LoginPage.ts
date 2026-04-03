@@ -1,15 +1,28 @@
-import { Page } from '@playwright/test';
+import { Locator, Page } from '@playwright/test';
 
 export class LoginPage {
-  constructor(private page: Page) {}
+  readonly page: Page;
+  
+  // Locators
+  private readonly usernameInput: Locator
+  private readonly passwordInput: Locator
+  private readonly loginButton: Locator
+
+  constructor(page: Page) {
+    this.page = page;
+    this.usernameInput = page.locator('#user-name');
+    this.passwordInput = page.locator('#password');
+    this.loginButton = page.locator('#login-button');
+  }
 
   async goto() {
-    await this.page.goto('/');
+    await this.page.goto(process.env.BASE_URL!);
   }
 
   async login(username: string, password: string) {
-    await this.page.fill('#user-name', username);
-    await this.page.fill('#password', password);
-    await this.page.click('#login-button');
+    await this.usernameInput.fill(username);
+    await this.passwordInput.fill(password);
+    await this.loginButton.click();
+    await this.page.waitForURL('https://www.saucedemo.com/inventory.html');
   }
 }

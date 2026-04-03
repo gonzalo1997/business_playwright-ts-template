@@ -9,6 +9,5 @@ test('Login with valid credentials', async ({ page }) => {
   await loginPage.goto();
   await loginPage.login(user.username, user.password);
 
-  // After login, SauceDemo redirects to inventory page
-  await expect(page).toHaveURL(/inventory.html/);
+  await expect(page).toHaveURL(process.env.BASE_URL! + 'inventory.html');
 });
