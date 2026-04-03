@@ -1,14 +1,36 @@
 {
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
+    "@playwright/test": "^1.59.1",
     "@types/node": "^25.5.0",
-    "eslint": "^10.0.3",
+    "eslint": "^10.1.0",
     "prettier": "^3.8.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@faker-js/faker": "^10.3.0",
-    "dotenv": "^17.3.1"
-  }
+    "@faker-js/faker": "^10.4.0",
+    "dotenv": "^17.4.0"
+  },
+  "name": "business_playwright-ts-template",
+  "version": "1.0.0",
+  "description": "A reusable starter kit for **UI and API automation** using [Playwright](https://playwright.dev/) and **TypeScript**.  \r This template is designed to be **plug-and-play**, with examples for helpers, page objects, factories, UI tests, and API tests.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalo1997/business_playwright-ts-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gonzalo1997/business_playwright-ts-template/issues"
+  },
+  "homepage": "https://github.com/gonzalo1997/business_playwright-ts-template#readme"
 }
