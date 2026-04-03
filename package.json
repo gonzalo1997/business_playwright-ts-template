@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0",
     "@playwright/test": "^1.59.1",
     "@types/node": "^25.5.0",
     "eslint": "^10.1.0",
