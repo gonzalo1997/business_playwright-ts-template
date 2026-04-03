@@ -1,0 +1,5 @@
+# Environment files
+.env
+
+# Playwright run metadata
+.last-run.json
