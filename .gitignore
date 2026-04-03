@@ -3,3 +3,9 @@
 
 # Playwright run metadata
 .last-run.json
+
+# Playwright test results and reports
+playwright-report/
+test-results/
+results.json
+results.xml
