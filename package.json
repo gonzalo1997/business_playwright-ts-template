@@ -20,7 +20,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test:bdd": "cucumber-js --require-module ts-node/register --require src/stepDefinitions/**/*.ts features/**/*.feature",
+    "test:bdd": "cucumber-js --require-module ts-node/register --require src/stepDefinitions/**/*.ts tests/features/**/*.feature",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
