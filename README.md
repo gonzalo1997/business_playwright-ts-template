@@ -56,3 +56,5 @@ Playwright generates HTML reports automatically:
 ```
 npx playwright test --reporter=html
 ```
+
+*Note¨: There are minor errors, loginHelper is redundant, since LoginPage already exists and the login feature is failing because the url is set to be verified with a traditional ui playwright test, not a bdd test yet.
