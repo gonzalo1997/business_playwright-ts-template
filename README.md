@@ -46,6 +46,11 @@ npx playwright test tests/ui
 npx playwright test tests/api
 ```
 
+###    - Run all BDD tests:
+```
+npm run test:bdd
+```
+
 ### 5. Reports
 Playwright generates HTML reports automatically:
 ```
